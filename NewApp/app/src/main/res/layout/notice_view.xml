@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notice Title"
+        android:textAlignment="textStart"
+        android:layout_marginLeft="10dp"
+        android:textColor="#0080ff"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+        <TextView
+            android:id="@+id/content1"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="monospace"
+            android:text="Content"
+            android:textColor="#A9A9A9 "
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/download1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_alignRight="@+id/title1"
+            android:text="Attachments"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20dp"
+            tools:background="#0080ff"
+            android:background="@drawable/roundedbutton"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            />
+
+</RelativeLayout>
