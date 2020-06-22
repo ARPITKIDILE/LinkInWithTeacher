@@ -6,7 +6,6 @@
 
 *This app will help to check the status of availability of teacher and also allows teacher to circulate notice.*
 
-A Group Project for Mobile Application Programming in B.E. Computer Science Course.
 *****************************************
 ### *Benefits*: 
 ```
